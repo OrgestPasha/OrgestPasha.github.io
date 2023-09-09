@@ -510,14 +510,20 @@ body{
 		overflow:none; 
 	}	
 
+	#navbar{
+		height:80px;
+	}
+
 	#nav-name h2{
-		font-size:40px;
-		padding:20px;
+		font-size:50px;
+		padding:40px;
 		width:100%;
+
 		   
 	}
 	#nav-name{
 		width:30%;
+		margin-bottom:20px; 
 
 	}
 
@@ -552,19 +558,20 @@ body{
 
 	.last-nav{
 		margin-right:30px;
-		font-size:25px;
+		font-size:30px;
 		padding:20px; 
 	}
 
 
 	#nav-items {
 		width:70%;
+		margin:20px; 
 
 		 
 	}
 
 	#nav-items > ul > li > a {
-		font-size:25px;
+		font-size:30px;
 		padding:20px; 
 		
 	}
@@ -617,7 +624,7 @@ body{
 	#contactimg{
 		opacity:0.5;
 		height:575px;
-		width:800px;
+		width:700px;
 		position:relative;
 		left:50px; 
 
