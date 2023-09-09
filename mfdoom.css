@@ -1,0 +1,156 @@
+body{
+  background:black;
+  font-family:sans-serif;
+}
+
+#img-div{
+  
+    
+}
+
+
+#img-caption{
+ 
+  background-image:url("mfdoom.png");
+
+  background-repeat:no-repeat;
+  
+  padding:0px;
+  height:600px;
+  width:100%;
+  
+  box-sizing:border-box;
+  display:flex;
+  justify-content:center; 
+  border-radius:10px; 
+  background-size: cover;
+  text-align:center;
+
+  
+   
+}
+
+#img-caption > h1{
+  display:flex;
+  text-align:center;
+  color: white;
+  
+  font-size:80px ;
+  font-weight:30px; 
+  padding-top:50px;
+  text-shadow:-1px -1px 40px black; 
+
+ 
+}
+
+#about-div{
+  margin:150px;
+  margin-bottom:0px;
+  color: white ;
+ }
+
+#about-div > h2{
+  
+  
+  font-size:45px;
+  display:flex;
+  width:100%;
+  border-bottom:3px solid white;
+  font:arial ;
+  font-weight:2px;
+  padding-bottom:20px;
+  color:white;   
+  
+}
+
+
+#about-content{
+
+  display:flex;
+  flex-wrap:wrap;
+}
+
+
+#about-txt{
+  font-size:20px;
+  width:60%;
+  display:flex;
+  padding:50px;
+}
+
+#about-img{
+  display:flex;
+  flex-wrap:wrap;
+  padding:30px; 
+  
+ 
+
+}  
+
+
+#about-img > img{
+  margin:50px;
+  height:450px;
+  width:325px;
+  border:3px solid white;
+  border-radius:5px; 
+}
+
+a{
+  color:gray;
+}
+
+#discography{
+  margin:150px;
+  margin-top:50px; 
+  color: white ;
+
+}
+
+#discography > h2{
+  
+  
+  font-size:45px;
+  display:flex;
+  width:100%;
+  border-bottom:3px solid white;
+  font-family: arial ;
+  font-weight:2px;
+  padding-bottom:20px;
+  color:white;   
+  
+}
+
+
+div .gallery {
+  margin: 5px;
+  
+  float: left;
+  width: 300px;
+  margin:40px;
+
+
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  margin-bottom:50px;
+  border:3px solid white;
+  border-radius:5px; 
+}
+
+div.desc {
+  padding: 25px;
+  text-align: center;
+  font-size:20px; 
+  
+}
+
+footer{
+  color: white ;
+  display:inline-block;
+  width:100%;
+  text-align:center;
+}
+

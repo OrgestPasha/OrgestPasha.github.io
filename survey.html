@@ -1,0 +1,75 @@
+<!DOCTYPE>
+<html>
+
+  <head>
+
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="survey.css">
+
+  </head>
+
+
+  <body>
+
+    <h1 id="title">Survey Form</h1>
+
+  <p id="description">Please take this survey so we have a better understanding of our audience<p>
+
+    <form id="survey-form" >
+
+        <label id="name-label">
+          <p id="name-p">Name</p>
+          <input id="name" type="text" placeholder=" Enter your name" class="name" required>
+        </label>
+
+        <label id="email-label" >
+          <p id="email-p">Email</p>
+          <input id="email" type="email" placeholder=" Enter your email" class="email" required>
+        </label>
+
+        <label id="number-label">
+           <p id="age-p">Age (optional)</p>
+          <input id="number" type="number" placeholder=" Age" min="13" max="100" required>
+        </label>
+
+        <label>
+          <p id="gender-p">Please choose your gender</p>
+          <select id="dropdown"  >
+            <option value="">Gender</option>
+            <option value="opt1">Male</option>
+            <option value="opt2">Female</option>
+          </select> 
+        </label>
+
+        <label>
+          <p id="recc-p">Would you reccomend our product</p>
+          <input type="radio" name="rec" id="yes" value="yes">Yes
+          <input type="radio" name="rec" id="no" value="no">No
+        </label>
+
+        <label>
+          <input type="checkbox" value="check2" required>Have you read our <a href="">terms and conditions</a>
+          <input type="checkbox" value="check" required>Do you accept our  terms and contions
+
+        </label>
+      <p id="recc-p">Any comments or suggestions?</p>
+        <label>
+          <textarea rows="5" cols="40" >Enter your comments here...</textarea>
+        </label>
+
+        <label>
+          <button id="submit">Submit</button>
+        </label>
+
+        
+        
+
+
+    </form>
+  
+  </body>
+<footer>
+<p id="foot-p">coded by <a href="main.html">Orgest Pasha<a></p>
+  </footer>
+
+</html>
