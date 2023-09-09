@@ -409,7 +409,7 @@ body{
 
 #project-header{
 	font-size:50px;
-	font-style:bolder;		
+	font-style:italic;		
 	letter-spacing:1px;
 	margin:0;
 	color:var(--colortext);
@@ -530,35 +530,60 @@ body{
 	#img1{
 		opacity:0.7;
 		position:relative;
-		left:150px; 
+		width:850px;
+		height:850px;  
+		left:150px;
+		top:130px;
+		
+		object-fit:cover;  
+		 
 		
 	}
 
 	#img2{
 		opacity:0.7;
 		position:relative;
-		left:400px; 
+		left:400px;
+		top:230px;
+		scale:1.1;
+		
+		  
 		
 	}
 
-	.btn p{
-		font-size:13px;
+	.btn > a{
+		font-size:30px;
 
 	}
 
+	.btn > i{
+		font-size:30px;
+		padding:10px; 
+
+	}
+
+	.visit-btn{
+		width:300px;
+		height:100px; 
+	}
+
+	.visit-btn > a{
+		font-size:30px;
+	}
+
     #button-div{
-	width:500px;
+	width:800px;
 	
     }
 
 	.btn{
-		width:160px;
-		height:60px;  
+		width:300px;
+		height:100px;  
 	}
 
 	.last-nav{
 		margin-right:30px;
-		font-size:30px;
+		font-size:35px;
 		padding:20px; 
 	}
 
@@ -579,21 +604,43 @@ body{
 	.desc-text{
 		opacity:0.8;
 		z-index:2;
-		font-size:30px;
+		font-size:32px;
 		font-weight:bold; 
 
 	}
 
-	#about-icons i {
-		font-size:40px; 
+
+	#hey-div{
+		font-size:30px; 
 	}
 
-	.btn i{
-	margin:0; 
-}
+	.project-title{
+		font-size:35px; 
+	}
+
+	#name-header{
+		font-size:55px;
+		width:400px;  
+	}
+
+	#about-icons i {
+		font-size:70px;
+
+	}
+
+	#icons i{
+		font-size:55px;
+		margin-right:25px;  
+	}
+
+	#about-icons > .code-icon {
+		margin-right:55px; 
+	}
+
+	
 
 	#about-section{
-		top:1300px;
+		top:1600px;
 	}
 
 	#about-text-div{
@@ -602,7 +649,7 @@ body{
 	}
 
 	#contact-section{
-		top:5000px;
+		top:6000px;
 		
 
 	}
@@ -618,13 +665,11 @@ body{
 		left:-260px; 
 	}
 
-	#contactimg-div{
-		 
-	}
+	
 	#contactimg{
 		opacity:0.5;
-		height:575px;
-		width:700px;
+		height:675px;
+		width:800px;
 		position:relative;
 		left:50px; 
 
@@ -632,21 +677,32 @@ body{
 	}
 
 	#footer{
-		top:5700px;
+		top:6900px;
 		position:absolute;
-		left:25%;  
+		left:20%;  
 	}
 
+	#footer > .desc-text {
+		font-size:20px; 
+	}
+
+	
+
 	#project-section{
-		top:2700px;
+		top:3300px;
 
 	}
 
 	#project-section > #project-info > #project-header {
 		position:relative;
-		left:60%;
-		margin-bottom:150px; 
+		left:55%;
+		margin-bottom:150px;
+		font-size: 70px; 
 		 
+	}
+
+	#contact-header{
+		font-size:25px; 
 	}
 
 	#projects{
