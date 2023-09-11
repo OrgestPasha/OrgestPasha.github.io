@@ -2,7 +2,10 @@
 	font-family:'Alex Brush';
 	font-family:sans-serif;
 	box-sizing:border-box;
-	scroll-behavior: smooth; 
+	scroll-behavior: smooth;
+	
+
+
 
 }
 
@@ -49,6 +52,7 @@ body{
 	display:flex;
 	justify-content:center;	
 	background:var(--colorbackground);
+	overflow:none; 
 
 
 
@@ -291,7 +295,9 @@ body{
 	width:80%;
 	position:absolute;
 	top:1100px;
-	display:flex;  
+	
+	display:flex;
+	  
 }
 
 #about-header{
@@ -306,6 +312,12 @@ body{
 #about-text-div{
 	width:50%; 
 }
+
+
+#contact-text-div{
+	width:50%;
+}
+
 
 
 #img2-div{
@@ -358,8 +370,9 @@ body{
 #footer{
 	width:100%;
 	text-align:center;
-	position:absolute;	
-	margin-top:600px;    
+	position:absolute;
+	left:30%; 	
+	margin-top:700px;    
 }
 
 #footer .desc-text{
@@ -463,6 +476,7 @@ body{
 	position:absolute;
 	top:3200px;
 	width:60%;
+	left:50px; 
 	display:flex;   
 }
 
@@ -479,11 +493,12 @@ body{
 
 
 #contact-txt{
-	width:70%; 
+	width:50%;
+	margin-left:30%; 	 
 }
 #contact-txt i{
 	margin:20px;
-	margin-left:0; 
+	margin-left:0px; 
 }
 
 #about-text-div > #icons{
@@ -500,13 +515,15 @@ body{
 	justify-content:center;
 	align-items:center;
 	position:absolute;
-	left:50%;
-	top:0;    
+	left:80%;
+	top:0;
+	scale:1.5;
+	  
 }
 
 #contactimg{
-	width:800px;
-	height:500px; 
+	width:600px;
+	height:400px; 
 	background-image:cover;
 	z-index:-2
 }
@@ -598,35 +615,69 @@ body{
 	}
 
 	#img1{
-		opacity:0.7;
-		position:relative;
+		
+		position:absolute;
 		width:850px;
 		height:850px;  
-		left:150px;
-		top:130px;
+		
+		bottom:130px;
 		
 		object-fit:cover;  
 		 
 		
 	}
 
+	#home-text-div{
+		width:70%;
+		
+	}
+
+
+
 	#img2{
-		opacity:0.7;
+		
 		position:relative;
-		left:400px;
-		top:230px;
+		left:600px;
+		top:130px;
 		scale:1.1;
 		
 		  
 		
 	}
 
+	#contact-text-div{
+		position:relative;
+		right:250px;
+		width:100%;
+		
+
+	}
+
+
+
+	#contact-text-div > .desc-text{
+		font-size:38px;
+		text-align:center;  
+	}
+
+	#contact-text-div > #contact-header{
+		font-size:38px;
+		text-align:center;  
+	}
+
+	#img2-div{
+		position:absolute;
+		top:-900px;
+		right:800px; 
+	}
+
 	#welcome-section{
 		top:300px;
+		
 	}
 
 	.btn > a{
-		font-size:30px;
+		font-size:38px;
 		padding-top:20px; 
 
 	}
@@ -642,19 +693,30 @@ body{
 		height:100px; 
 	}
 
+	#contact-text-div > #icons > a > i{
+		position:relative;
+		
+		margin-top:50px;
+		font-size:80px;   
+	}
+
 	.visit-btn > a{
-		font-size:30px;
-		padding-top:25px; 
+		font-size:35px;
+		padding-top:35px; 
 	}
 
     #button-div{
-	width:800px;
+	width:900px;
+	position:relative; 
+	left:25%; 
+	
 	
     }
 
 	.btn{
-		width:300px;
-		height:100px;  
+		width:400px;
+		height:100px;
+		margin-left:50px;   
 	}
 
 	.last-nav{
@@ -681,7 +743,8 @@ body{
 		opacity:0.8;
 		z-index:2;
 		font-size:32px;
-		font-weight:bold; 
+		font-weight:bold;
+
 
 	}
 
@@ -700,73 +763,118 @@ body{
 	}
 
 	#about-icons i {
-		font-size:70px;
+		font-size:120px;
+		margin-top:50px;
+
+
+
+
+	}
+
+	#about-icons{
+		display:flex;
+		justify-content:center;
+		margin:100px;
+
 
 	}
 
 	#icons i{
-		font-size:55px;
-		margin-right:25px;  
+		font-size:75px;
+		margin-right:25px;
+		margin-top:30px;
+		margin-bottom:30px;    
 	}
 
 	#about-icons > .code-icon {
-		margin-right:55px; 
+		margin-right:130px; 
+	}
+
+	.code-icon p{
+		font-size:30px;
+		margin-top:20px; 
+		    
+	}
+
+	.js{
+		position:relative;
+		right:25px; 
 	}
 
 	
 
 	#about-section{
-		top:2100px;
+		top:2800px;
+		width:120%;
+
+		 
 	}
 
 	#about-text-div{
 		position:relative;
-		left:-45%;  
+		width:200%; 
+		left:15%;
+		
+
+	}
+
+	#about-text-div > .desc-text{
+		width:100%;
+
 	}
 
 	#contact-section{
-		top:6500px;
+		top:7800px;
+		width:80%;
+		
+		 
 		
 
 	}
 
 	#contact-txt{
-		width:100%;
+		width:80%;
+		 
 		position:relative;
-		left:200px;  
+		left:400px;
+		text-align:center; 
+		 
 	}
 
 	#contact-txt > #project-header{
 		position:relative;
-		left:-260px; 
+		right:250px;
+		
 	}
 
 	
 	#contactimg{
-		opacity:0.5;
+		
 		height:675px;
 		width:800px;
-		position:relative;
-		left:50px; 
+		position:absolute;
+		top:-500px;
+		left:-700px;
+		scale:1; 
 
 
 	}
 
 	#footer{
 		position:absolute;
-		top:200px;  
+		top:300px;  
 		
-		left:35%;  
+		left:30%;  
 	}
 
 	#footer > .desc-text {
-		font-size:20px; 
+		font-size:25px; 
 	}
 
 	
 
 	#project-section{
-		top:3800px;
+		top:4200px;
 
 	}
 
@@ -790,6 +898,10 @@ body{
 	.project{
 		position:relative;
 		left:25%; 
+	}
+
+	#contactimg-div{
+		width:0; 
 	}
 
 	}
