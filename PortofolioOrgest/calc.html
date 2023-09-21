@@ -1,0 +1,68 @@
+<html>
+   <head lang="en">
+    <title>Calculator app</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="calc.css">
+   <link href="https://fonts.cdnfonts.com/css/x360" rel="stylesheet">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+   <link href='https://fonts.googleapis.com/css?family=Dancing Script' rel='stylesheet'>
+    
+   </head>
+   <body>
+    
+    <div id="calc-body">
+        <div id="icon-div"> 
+
+            <div id="clock">
+                <h1 id="date-time"></h1>
+            </div>
+
+            <div id="camera">
+                <div id="line"></div>
+                <div id="dot"></div>
+            </div>
+
+            <div id="icons">
+                <i class="fa-solid fa-signal"></i>
+                <i class="fa-solid fa-wifi"></i>
+                <i class="fa-solid fa-battery-full"></i>
+            </div>
+
+        </div>
+
+        <input type="text" class="display" />
+
+
+        <div id="calc-button-div">
+            <button class="button white" data-value = "AC">C</button>
+            <button class="button white" data-value = "%">%</button>
+            <button class="button white" data-value = "*">*</button>
+            <button class="button orange" data-value = "/">/</button>
+            <button class="button gray" data-value = "7">7</button>
+            <button class="button gray" data-value = "8">8</button>
+            <button class="button gray" data-value = "9">9</button>
+            <button class="button orange" data-value = "+">+</button>
+            <button class="button gray" data-value = "4">4</button>
+            <button class="button gray" data-value = "5">5</button>
+            <button class="button gray" data-value = "6">6</button>
+            <button class="button orange" data-value = "-">-</button>
+            <button class="button gray" data-value = "1">1</button>
+            <button class="button gray" data-value = "2">2</button>
+            <button class="button gray" data-value = "3">3</button>
+            <button class="button orange" data-value = "=">=</button>
+            <button class="button gray" data-value = "0">0</button>            
+            <button class="button gray dot" data-value = ".">.</button>
+
+
+        </div>
+
+        <div id="phone-line"></div>
+
+    </div>
+    <script src="calculator.js"></script>
+   </body>
+   
+</html>

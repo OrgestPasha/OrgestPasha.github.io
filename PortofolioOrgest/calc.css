@@ -1,0 +1,177 @@
+:root{
+	--white:#D4D4D2;
+	--black:#1C1C1C;
+	--gray:#505050;
+	--orange:#FF9500;
+}
+
+
+
+body{
+	background-color:var(--orange);
+	font-family: 'X360 by Redge', sans-serif;
+	font-weight:bold;  
+}
+
+#calc-body{
+	width:450px;
+	height:950px;
+	background:var(--black);
+	border-radius:50px; 
+	border:10px solid black;
+	margin:auto;
+	margin-top:100px;   
+}
+
+.display {
+  height: 150px;
+  width: 400px;
+  background:none; 
+  outline: none;
+  border: none;
+  text-align: right;
+  margin-bottom: 10px;
+  font-size: 80px;
+  color: var(--white);
+  pointer-events: none;
+  position:absolute;
+  top:350px;  
+}
+
+#icon-div{
+	position:absolute;
+	width:400px;	
+	font-size:10px;
+	color:white;   
+}
+
+#icons{
+	position:relative; 
+	display:flex;
+	left:300px;
+	top:-25px; 
+}
+
+#icons i{
+	font-size:20px;
+	margin:10px;  
+}
+
+#clock{
+	position:relative;
+	letter-spacing:2px; 
+	left:30px;
+	top:35px; 
+}
+
+#phone-line{
+	width:150px;
+	height:5px;
+	background:var(--white);
+	border-radius:5px;
+	position:relative;
+	top:400px;
+	margin:auto;     
+}
+
+
+
+#line{
+	width:100px;
+	height:5px;
+	background:var(--white);
+	border-radius:5px;
+	position:relative;
+	bottom:30px;
+	left:45%; 
+	     
+}
+
+#dot{
+	width:7px;
+	height:7px;
+	background:var(--white);
+	border-radius:50%;
+	position:relative;
+	bottom:36px;
+	left:40%;
+}
+
+
+#calc-button-div{
+	position:relative;
+	top:40%; 
+	width:90%;
+	margin:auto;
+	height:55%;
+	left:10px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	justify-content: center;
+  	align-items: center;
+  	z-index:5;   
+}
+
+.button{
+	width:80px;
+	height:80px;
+	display:flex;
+	justify-content:center;
+	align-items:center;   
+	border-radius:50%;
+	font-size:35px; 
+
+}
+
+button{
+	z-index:5; 
+	border:none;  
+}
+
+
+.button:hover{
+	position:relative;
+	top:-5px;
+	cursor:pointer;
+	box-shadow: 2px 2px 5px black;  
+}
+
+.button p{
+	width:100%;
+	text-align:center;  
+	font-size:30px; 
+	 
+}
+
+.dot p{
+	font-size:10px;
+	position:relative;
+	top:15px; 
+}
+
+.white{
+	background:var(--white);
+	color:var(--black); 
+}
+
+.gray{
+	background:var(--gray);
+	color:var(--white);
+}
+
+.orange{
+	background:var(--orange);
+	color:var(--white);
+}
+
+
+@media only screen and (min-device-width : 360px)   
+and (max-device-width : 640px) {
+		#calc-body{
+			position:relative;
+			left:15%;  
+		}
+
+		
+	}
