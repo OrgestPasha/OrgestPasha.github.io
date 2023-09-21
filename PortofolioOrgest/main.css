@@ -71,7 +71,7 @@ body{
   margin:0;  
   top:0;
   left:0;
- background:var(--colorbackground); 
+ background: linear-gradient( var(--colorbackground) 50%, transparent 100%); 
   z-index:2; 
 
   
@@ -284,11 +284,12 @@ body{
 .btn a{
 	text-decoration:none;
 	color:white;
-	z-index:4;
+	
 	width:100%;
 	height:100%;
 	text-align:center;
-	padding-top:15px;      
+	padding-top:15px;
+	z-index:3;       
 }
 
 #about-section{
@@ -389,8 +390,7 @@ body{
 
 #projects{
 	margin-top: 100px;
-	display:grid;
-	
+	display:grid;	
 	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 	grid-row: auto auto;	
 	justify-content:center;	
@@ -400,7 +400,7 @@ body{
   justify-content:center;
 
 	
-	place-items:center;
+	
 	   
 }
 
@@ -603,30 +603,27 @@ body{
 
 
 
-
-
-
-
 @media only screen and (min-device-width : 360px)   
-and (max-device-width : 640px){
+and (max-device-width : 640px) {
 	
 	body{
 		overflow:none; 
 	}	
 
 	#navbar{
-		height:80px;
+		height:120px;
+		z-index:8; 
 	}
 
 	#nav-name h2{
-		font-size:50px;
-		padding:40px;
-		width:100%;
+		font-size:55px;
+		padding:35px;
+		width:120%;
 
 		   
 	}
 	#nav-name{
-		width:30%;
+		width:100%;
 		margin-bottom:20px; 
 
 	}
@@ -674,12 +671,12 @@ and (max-device-width : 640px){
 
 	#contact-text-div > .desc-text{
 		font-size:38px;
-		text-align:center;  
+		
 	}
 
 	#contact-text-div > #contact-header{
 		font-size:38px;
-		text-align:center;  
+		  
 	}
 
 	#img2-div{
@@ -738,7 +735,7 @@ and (max-device-width : 640px){
 
 	.last-nav{
 		margin-right:30px;
-		font-size:35px;
+		font-size:40px;
 		padding:20px; 
 	}
 
@@ -751,8 +748,9 @@ and (max-device-width : 640px){
 	}
 
 	#nav-items > ul > li > a {
-		font-size:30px;
-		padding:20px; 
+		font-size:35px;
+		padding:20px;
+		text-align:center;  
 		
 	}
 
@@ -841,8 +839,10 @@ and (max-device-width : 640px){
 	}
 
 	#contact-section{
-		top:7800px;
+		
+		top:7000px;
 		width:80%;
+
 		
 		 
 		
@@ -851,10 +851,10 @@ and (max-device-width : 640px){
 
 	#contact-txt{
 		width:80%;
-		 
+		 left:100px; 
 		position:relative;
-		left:400px;
-		text-align:center; 
+		
+		
 		 
 	}
 
@@ -869,9 +869,9 @@ and (max-device-width : 640px){
 		
 		height:675px;
 		width:800px;
-		position:absolute;
-		top:-500px;
-		left:-700px;
+		position:relative;
+		right:50px;
+		opacity:0.5;  				
 		scale:1; 
 
 

@@ -154,3 +154,59 @@ footer{
   text-align:center;
 }
 
+
+@media only screen and (min-device-width : 360px)   
+and (max-device-width : 640px) {
+    #img-caption{
+      background-position-x: 40%;
+    }
+
+    #img-caption > h1{
+      position:relative;
+      left:50px;  
+    }
+
+
+    #about-div > h2{
+      font-size:80px; 
+    }
+
+    p{
+      font-size:28px;
+
+    }
+
+    #about-txt{
+      width:80%; 
+    }
+
+    #about-img{
+      position:relative;
+      left:50px;  
+
+    }
+
+    #discography > h2{
+
+       font-size:80px;
+    }
+
+    .gallery{
+      position:relative;
+      left:150px;  
+    }
+
+    .desc p{
+      font-size:40px;
+      
+    }
+
+    footer{
+      position:relative;
+      top:100px; 
+    }
+
+
+
+  }
+
