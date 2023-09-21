@@ -170,7 +170,15 @@ button{
 and (max-device-width : 640px) {
 		#calc-body{
 			position:relative;
-			left:15%;  
+			 
+		}
+
+
+		.display{
+			
+			position:absolute;
+			top:250px;
+
 		}
 
 		
